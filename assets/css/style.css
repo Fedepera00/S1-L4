@@ -1,0 +1,143 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(./sfondo.png);
+  background-size: cover;
+  color: #313030;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #0088aa;
+}
+
+header .logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+  background-color: #0088aa;
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #201e1f;
+  margin: 10px;
+}
+h2 {
+  font-size: 1em;
+  color: #ffffff;
+  margin: 10px;
+  font-weight: bold;
+  background-color: #0088aa;
+}
+
+.author {
+  font-size: 0.9em;
+  color: #555;
+}
+
+ul,
+ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #702b2b;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.newsletter {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px;
+  background-color: #3a68ca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.related-articles {
+  margin-top: 20px;
+}
+
+.related-articles .article {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.related-articles .article a {
+  font-weight: bold;
+  color: #04a5cb;
+  text-decoration: none;
+}
+
+.related-articles .article p {
+  margin: 5px 0;
+  font-size: 0.8em;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  font-size: 0.8em;
+}
